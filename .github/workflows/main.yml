@@ -1,7 +1,7 @@
 # Commit and push
 # https://github.com/actions/checkout#push-a-commit-using-the-built-in-token
 name: Commit and push
-on: push
+on: fork
 jobs:
   build:
     runs-on: ubuntu-latest
